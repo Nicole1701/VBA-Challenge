@@ -16,3 +16,5 @@
 ### CHALLENGE
 
   * Return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume"
+
+  * Code should loop through each worksheet.

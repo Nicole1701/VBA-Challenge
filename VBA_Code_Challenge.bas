@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module11"
+Attribute VB_Name = "Module1"
 Sub WallStreet()
 
 'Loop through all sheets
@@ -108,13 +108,13 @@ For i = 2 To LastRow
     
     For i = 2 To LastRowTicker
     
-        If ws.Cells(i, 11).Value > 0 Then
-        ws.Cells(i, 11).Interior.Color = 5287936
-        ws.Cells(i, 11).Font.ColorIndex = 1
+        If ws.Cells(i, 10).Value > 0 Then
+        ws.Cells(i, 10).Interior.Color = 5287936
+        ws.Cells(i, 10).Font.ColorIndex = 1
         
-        ElseIf ws.Cells(i, 11).Value < 0 Then
-        ws.Cells(i, 11).Interior.ColorIndex = 3
-        ws.Cells(i, 11).Font.ColorIndex = 2
+        ElseIf ws.Cells(i, 10).Value < 0 Then
+        ws.Cells(i, 10).Interior.ColorIndex = 3
+        ws.Cells(i, 10).Font.ColorIndex = 2
         
     End If
 
