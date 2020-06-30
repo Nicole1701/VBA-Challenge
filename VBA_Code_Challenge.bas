@@ -74,7 +74,7 @@ For i = 2 To LastRow
                 ws.Range("J" & SummaryTableRow).Value = YearChange
                 
                 'Find Percent of Change and add to Table
-                'https://stackoverflow.com/questions/18598872/vba-script-when-dividing-by-zero
+                'stackoverflow.com/questions/18598872/vba-script-when-dividing-by-zero
                     If OpenPrice <> 0 Then
                     PercentChange = (YearChange / OpenPrice)
                     'MsgBox (PercentChange)
